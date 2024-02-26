@@ -29,7 +29,6 @@
           <li><a href="#galeria">Galeria</a></li>
           <li><a href="#Plantas">Plantas</a></li>
           <li><a href="#Contatos">Contatos</a></li>
-          <li><a href="insignia.html" target="_blank">Obras</a></li>
         </ul>
       </nav>
     </header>
