@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Carlos Eduardo Fialho">
@@ -12,7 +13,11 @@
   <script src="slide.js" defer></script>
   <script src="menu.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
 </head>
 <body>
   <div class="hero-container">
@@ -25,10 +30,11 @@
       </div>
       <nav class="header-nav">
         <ul>
-          <li><a href="#sobreLoomi">Sobre o Loomi</a></li>
+          <li><a href="#sobreLoomi">Loomi</a></li>
           <li><a href="#galeria">Galeria</a></li>
           <li><a href="#Plantas">Plantas</a></li>
           <li><a href="#Contatos">Contatos</a></li>
+          <li><a href="insignia.html" target="_blank">Obras</a></li>
         </ul>
       </nav>
     </header>
@@ -51,7 +57,8 @@
   <div>
     <section class="hero-content">
       <div class="bannerSegundaria">
-        <div class="formulario" id="Contatos">
+        <div class="formulario " data-aos="fade-up"
+        data-aos-duration="3000" id="Contatos">
           <form action="formulario.php" method="post">
             <h2 class="saibamais">Quer mais informações?</h2>
             <label for="nome">Nome</label> 
@@ -77,9 +84,13 @@
   </div>
 
   <div class="container-sobre">
-    <article class="sobre" id="sobreLoomi">
+    <article class="sobre" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" id="sobreLoomi">
       <img src="img/Loomi_Boreal.jpg" alt="praca">
-      <div class="sobre-container">
+      <div class="sobre-container" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="2000">
         <h2>Loomi Chácara Santo Antônio</h2>
         <p>O Loomi Chácara Santo Antônio se destaca pela sua proposta inovadora e pela qualidade de vida que oferece aos seus moradores. O projeto se destaca por sua arquitetura moderna e elegante, proporcionando uma experiência residencial única.
 
@@ -92,9 +103,13 @@
 
   <h1 class="plants" id="Plantas">Plantas</h1>
 
-  <section class="slider-container">
+  <section class="slider-container" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
     <div class="slider-track" id="plantas">
-      <div class="slider-plants">
+      <div class="slider-plants" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">>
         
         <a href="img/180m²ampli-3suites-Autral.png"target="_blank">
           <img src="img/180m²ampli-3suites-Autral.png" alt="planta 1">
@@ -141,7 +156,9 @@
 
   <h1 class="gallery" id="galeria"> Galeria</h1>
 
-  <div class="carousel-container">
+  <div class="carousel-container" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
     <div class="carousel-track" id="carouselTrack">
       <div class="carousel-slide">
         <a href="img/MLommi_Hall.jpeg" target="_blank">
@@ -234,7 +251,7 @@
   </div>
 
   <h1 class="localizacao"> Localização</h1>
-  <div class="location-container">
+  <div class="location-container" data-aos="zoom-in"></div>
     <section class="location">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.133927605741!2d-46.696602299999995!3d-23.6353743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50ee37a602c7%3A0xbcd8f12730a4e6fc!2sR.%20Fernandes%20Moreira%2C%20132%20-%20Ch%C3%A1cara%20Santo%20Ant%C3%B4nio%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004716-000!5e0!3m2!1spt-BR!2sbr!4v1707330501459!5m2!1spt-BR!2sbr" 

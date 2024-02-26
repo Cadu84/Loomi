@@ -1,3 +1,4 @@
+
 // Carousel Galeria
 let index = 0;
 const track = document.getElementById('carouselTrack');
@@ -108,3 +109,4 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+AOS.init();

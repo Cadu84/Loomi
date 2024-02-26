@@ -29,6 +29,7 @@
           <li><a href="#galeria">Galeria</a></li>
           <li><a href="#Plantas">Plantas</a></li>
           <li><a href="#Contatos">Contatos</a></li>
+          <li><a href="insignia.html" target="_blank">Obras</a></li>
         </ul>
       </nav>
     </header>
@@ -214,7 +215,7 @@
             width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <br><br>
-        <address class="endereco"><h1>Rua Fernandes Moreira, 132 - Chácara Santo Antônio - São Paulo/SP</h1><br> </address>
+        <address class="endereco"><h1>Rua Fernandes Moreira, 132 - Chácara Santo Antônio/SP</h1><br> </address>
     </section>
 </div>
 
